@@ -3,17 +3,17 @@ import Image from 'next/image'
 
 const slides = [
   {
-    image: '/images/carrossel1.jpg',
+    image: '/images/conteudoexclusivo.02.png',
     title: 'Conteúdo Exclusivo',
     text: 'Acesse materiais desenvolvidos por especialistas em comunicação, com dicas práticas para o seu dia a dia.'
   },
   {
-    image: '/images/carrossel2.jpg',
+    image: '/images/acompanheseuprogresso.png',
     title: 'Acompanhe seu Progresso',
     text: 'Veja sua evolução com nosso sistema de leitura contabilizada e conquiste novos patamares.'
   },
   {
-    image: '/images/carrossel3.jpg',
+    image: '/images/comunidadeapoio.png',
     title: 'Comunidade de Apoio',
     text: 'Participe de uma comunidade que incentiva o crescimento pessoal e profissional.'
   }

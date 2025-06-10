@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className="hidden md:block">
             <Image
-              src="/images/hero-image.png"
+              src="/images/home01.png"
               alt="Comunicação efetiva"
               width={600}
               height={400}

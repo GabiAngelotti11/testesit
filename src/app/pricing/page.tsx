@@ -167,6 +167,31 @@ export default function PricingPage() {
             </div>
           ))}
         </div>
+
+        {/* Seção de Métodos de Pagamento */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <h2 className="text-2xl font-semibold text-white text-center mb-8">
+            Métodos de Pagamento
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="backdrop-blur-sm bg-white/10 rounded-lg p-6 border border-white/20 flex flex-col items-center justify-center">
+              <img src="/images/mastercard.png" alt="Mastercard" className="h-12 w-auto mb-3" />
+              <span className="text-white/80 text-sm">Mastercard</span>
+            </div>
+            <div className="backdrop-blur-sm bg-white/10 rounded-lg p-6 border border-white/20 flex flex-col items-center justify-center">
+              <img src="/images/visa.png" alt="Visa" className="h-12 w-auto mb-3" />
+              <span className="text-white/80 text-sm">Visa</span>
+            </div>
+            <div className="backdrop-blur-sm bg-white/10 rounded-lg p-6 border border-white/20 flex flex-col items-center justify-center">
+              <img src="/images/PIX.png" alt="Pix" className="h-12 w-auto mb-3" />
+              <span className="text-white/80 text-sm">Pix</span>
+            </div>
+            <div className="backdrop-blur-sm bg-white/10 rounded-lg p-6 border border-white/20 flex flex-col items-center justify-center">
+              <img src="/images/elo.png" alt="Elo" className="h-12 w-auto mb-3" />
+              <span className="text-white/80 text-sm">Elo</span>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );

@@ -16,18 +16,18 @@ export default function Sobre() {
       <Header />
       
       <section className="container mx-auto px-4 min-h-[calc(100vh-4rem)] flex items-center">
-        <div className="max-w-3xl mx-auto">
+        <div className="w-full max-w-[1400px] mx-auto">
+          <div className="flex flex-col md:flex-row gap-6 mb-8 justify-center items-center">
+            <div style={{ width: '650px', height: '300px' }} className="bg-white/10 rounded-xl flex items-center justify-center overflow-hidden border border-white/20">
+              <img src="/images/sobrenos01.png" alt="Sobre 1" className="object-cover w-full h-full" />
+            </div>
+            <div style={{ width: '650px', height: '300px' }} className="bg-white/10 rounded-xl flex items-center justify-center overflow-hidden border border-white/20">
+              <img src="/images/sobrenos02.png" alt="Sobre 2" className="object-cover w-full h-full" />
+            </div>
+          </div>
           <h1 className="text-3xl font-bold text-white mb-6 text-center">
             Sobre Nós
           </h1>
-          <div className="flex flex-col md:flex-row gap-4 mb-6 justify-center items-center">
-            <div className="w-full md:w-1/2 h-40 bg-white/10 rounded-xl flex items-center justify-center overflow-hidden border border-white/20">
-              <img src="/images/sobre1.jpg" alt="Sobre 1" className="object-cover w-full h-full" />
-            </div>
-            <div className="w-full md:w-1/2 h-40 bg-white/10 rounded-xl flex items-center justify-center overflow-hidden border border-white/20">
-              <img src="/images/sobre2.jpg" alt="Sobre 2" className="object-cover w-full h-full" />
-            </div>
-          </div>
           
           <div className="backdrop-blur-sm bg-white/5 rounded-3xl p-4 border border-white/10 space-y-4">
             <div>

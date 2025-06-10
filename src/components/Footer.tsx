@@ -102,6 +102,17 @@ export default function Footer() {
               </a>
             </div>
           </div>
+
+          {/* Métodos de Pagamento */}
+          <div className="flex flex-col items-center w-full max-w-xs">
+            <h3 className="text-white font-semibold mb-2" style={{ marginBottom: '10px' }}>Métodos de Pagamento</h3>
+            <div className="flex gap-4">
+              <img src="/images/mastercard.png" alt="Mastercard" className="h-8 w-auto" />
+              <img src="/images/visa.png" alt="Visa" className="h-8 w-auto" />
+              <img src="/images/PIX.png" alt="Pix" className="h-8 w-auto" />
+              <img src="/images/elo.png" alt="Elo" className="h-8 w-auto" />
+            </div>
+          </div>
         </div>
 
         {/* Copyright */}
